@@ -38,7 +38,7 @@ def main():
         print('Wind Speed: ', lst['wind']['speed'])
         print('\n\n')
     else:
-        print('Error', r.json()['message'])
+        print('Error:', r.json()['message'])
 
 if __name__=='__main__':
     main()
